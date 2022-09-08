@@ -1,0 +1,56 @@
+.allocate-points-question{
+  padding: 1em;
+  border: solid 1px #ccc;
+  border-radius: 1em;
+  margin-top: 0.5em;
+  margin-bottom: 0.5em;
+
+  &__question-area{
+    display: flex;
+    gap: 2em;
+    justify-content: space-between;
+  }
+
+  &__question{
+    font-weight: 700;
+    padding-left: 1em;
+  }
+
+  &__options{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    margin-top: 1em;
+
+    &-item{
+      display: flex;
+      gap: 1em;
+      align-items: center;
+      margin-bottom: 1em;
+
+      &:last-child{
+        margin-bottom: 0;
+      }
+
+      &-points-area{
+        display: flex;
+        align-items: center;
+
+      }
+
+      &-input{
+
+        input{
+          height: 1em;
+          width: 2em;
+          padding: 0.5em;
+        }
+      }
+
+      &-el{
+        text-align: left;
+
+      }
+    }
+  }
+}
